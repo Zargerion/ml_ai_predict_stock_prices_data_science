@@ -1,0 +1,23 @@
+pip install jupyter --user
+pip install openpyxl
+pip install tensorflow
+pip install tensorflow-gpu
+pip install scikit-learn
+pip install numpy
+pip install keras
+pip install torch
+pip install lightgbm
+pip install pandas
+pip install scipy
+pip install matplotlib
+pip install mplfinance
+pip install stable-baselines3
+pip install gym-anytrading
+pip install gym
+pip install finta
+
+pyconda -m pip install "tensorflow<2.11"
+pyconda -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+
+https://www.tensorflow.org/guide/keras/save_and_serialize
+https://www.section.io/engineering-education/stock-price-prediction-using-python/
